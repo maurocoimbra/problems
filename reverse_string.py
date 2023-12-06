@@ -1,3 +1,11 @@
+"""
+344. Reverse String
+
+Write a function that reverses a string. The input string is given as an array of characters s.
+
+You must do this by modifying the input array in-place with O(1) extra memory.
+"""
+
 class Solution:
     def reverseString1(self, s: list[str]) -> None:
         # The idea here is to use a linked list to insert the elements in the head, and then updating the original list, not ideal 
